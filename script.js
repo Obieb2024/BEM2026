@@ -3,7 +3,7 @@ function bukaLink(tujuan, event) {
     let url = "";
 
     if (tujuan === 'drive') {
-        url = "https://drive.google.com/drive/folders/MASUKKAN_LINK"; 
+        url = "https://drive.google.com/drive/folders/191HqI6sCSLokrYuXDEuh0WnqkgA4Cql_?usp=drive_link"; 
     } else if (tujuan === 'gform') {
         url = "https://forms.gle/jQBa676NR5vZuXLf9"; 
     } else if (tujuan === 'admin1') {
@@ -17,4 +17,5 @@ function bukaLink(tujuan, event) {
     } else {
         alert("Tautan belum disetting panitia.");
     }
+
 }
